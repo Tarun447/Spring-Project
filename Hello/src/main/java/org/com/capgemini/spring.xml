@@ -5,12 +5,11 @@
     xsi:schemaLocation="
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="hl" class="capgemin.Hello"/>
 
 
 
+        <context:component-scan base-package="org.com.capgemini"/>
 
 
-<context:component-scan base-package="org.com.capgemini"/>
 
 </beans>
